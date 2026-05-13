@@ -1,0 +1,29 @@
+# Create virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate        # Linux/Mac
+venv\Scripts\activate          # Windows
+
+# Install all packages
+pip install -r requirements.txt
+
+streamlit run app.py
+
+python app.py
+
+
+
+
+See, I need another updation in the analyxer tool, 
+I have uploaded a image of the current project folder structure,
+i have created a folder named data, and isidewhich it has seprate folders for leagues
+and inside every folders the data od leagues year wise are stored in exact shown format, 
+so, according to that i wan, the codes and data path inside the codes to be modified such a
+way it access this data and i want a filter of year to be added year, so that user can select
+the year they want(they can able to select multiple years also), and the data is refelected 
+accordingly, the stats and charts of the selected years should be refelected, now i have
+data for 2 leagues and 2 years only, but i future i will add data for more leagues and 
+more years, so make sure u add the years in filter from 2000s , and upto 3000, so user can 
+select, also this filter should be seprate for each leagues, like under the dashboard of each filter,
+in global filter, it should be added, 
+
+So please make this chnage and give me the fully updated codes 
